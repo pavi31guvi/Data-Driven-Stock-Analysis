@@ -8,7 +8,7 @@ The workflow converts raw YAML files into structured CSVs, computes financial me
 ---
 
 ## 🗂️ Project Structure
-project/
+```
 ├── main.py  (streamlit.py)       # Streamlit dashboard with 7 tabs
 ├── yml_to_csv.py                # Converts raw YAML files to master CSV + ticker CSVs
 ├── green_red_stock.py           # Computes daily & yearly returns, saves master_with_returns.csv
@@ -21,6 +21,7 @@ project/
 │   ├── ticker_csv/              # Individual ticker-level CSVs
 │   └── Sector_data.csv          # Sector mapping file
 └── README.md                     # Documentation
+```                  
 
 ## Features
 
