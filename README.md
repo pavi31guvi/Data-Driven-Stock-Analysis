@@ -1,11 +1,13 @@
-# NIFTY 50 Stock Analysis Dashboard
+# 📊 NIFTY 50 Stock Analysis Dashboard
 
-## Project Overview
-This project is a **data-driven dashboard** built with **Python, Pandas, Streamlit, Plotly**.  
+## 🔗 Project Overview
+This project is a data-driven dashboard built with **Python, Pandas, Streamlit, Plotly**.  
 It analyzes NIFTY 50 stock data, providing insights into volatility, cumulative returns, sector performance, correlations, and monthly gainers/losers.  
 The workflow converts raw YAML files into structured CSVs, computes financial metrics, and visualizes them interactively.
 
-## Project Structure
+---
+
+## 🗂️ Project Structure
 project/
 │── main.py (streamlit.py)     # Streamlit dashboard with 7 tabs
 │── yml_to_csv.py              # Converts raw YAML files to master CSV + ticker CSVs
