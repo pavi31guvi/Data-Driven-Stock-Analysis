@@ -21,7 +21,8 @@ The workflow converts raw YAML files into structured CSVs, computes financial me
 │   ├── ticker_csv/              # Individual ticker-level CSVs
 │   └── Sector_data.csv          # Sector mapping file
 └── README.md                     # Documentation
-```                  
+```
+---               
 
 ## Features
 
