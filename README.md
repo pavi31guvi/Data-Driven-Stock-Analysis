@@ -9,18 +9,18 @@ The workflow converts raw YAML files into structured CSVs, computes financial me
 
 ## 🗂️ Project Structure
 project/
-│── main.py (streamlit.py)     # Streamlit dashboard with 7 tabs
-│── yml_to_csv.py              # Converts raw YAML files to master CSV + ticker CSVs
-│── green_red_stock.py         # Computes daily & yearly returns, saves master_with_returns.csv
-│── volatile_cumulative.py     # Calculates volatility & cumulative returns, saves top 10/5 CSVs
-│── sector.py                  # Maps tickers to sectors, computes sector-wise performance
-│── correlation.py             # Generates correlation matrix CSV for stocks
-│── gainers_losers.py          # Extracts monthly top 5 gainers & losers
-│── data/                      # Raw YAML data (organized by month)
-│── data/output_dir/           # Processed CSV outputs for dashboard
-│── data/ticker_csv/           # Individual ticker-level CSVs
-│── data/Sector_data.csv       # Sector mapping file
-│── README.md                  # Documentation
+├── main.py  (streamlit.py)       # Streamlit dashboard with 7 tabs
+├── yml_to_csv.py                # Converts raw YAML files to master CSV + ticker CSVs
+├── green_red_stock.py           # Computes daily & yearly returns, saves master_with_returns.csv
+├── volatile_cumulative.py       # Calculates volatility & cumulative returns, saves top 10/5 CSVs
+├── sector.py                     # Maps tickers to sectors, computes sector-wise performance
+├── correlation.py                # Generates correlation matrix CSV for stocks
+├── gainers_losers.py            # Extracts monthly top 5 gainers & losers
+├── data/                        # Raw YAML data (organized by month)
+│   ├── output_dir/              # Processed CSV outputs for dashboard
+│   ├── ticker_csv/              # Individual ticker-level CSVs
+│   └── Sector_data.csv          # Sector mapping file
+└── README.md                     # Documentation
 
 ## Features
 
