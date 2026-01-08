@@ -5,7 +5,7 @@ This project is a **data-driven dashboard** built with **Python, Pandas, Streaml
 It analyzes NIFTY 50 stock data, providing insights into volatility, cumulative returns, sector performance, correlations, and monthly gainers/losers.  
 The workflow converts raw YAML files into structured CSVs, computes financial metrics, and visualizes them interactively.
 
-**## Project Structure**
+## Project Structure
 project/
 │── main.py (streamlit.py)     # Streamlit dashboard with 7 tabs
 │── yml_to_csv.py              # Converts raw YAML files to master CSV + ticker CSVs
@@ -39,7 +39,8 @@ git clone https://github.com/pavi31guvi/Data-Driven-Stock-Analysis.git
 cd Data-Driven-Stock-Analysis
 ```
 
-```# Run python scripts
+```
+# For Data preparation - Run the below python scripts 
 python yml_to_csv.py
 
 pyhton green_red_stock.py
@@ -53,7 +54,8 @@ python correlation.py
 python gainers_losers.py
 ```
 
-```# Run Streamlit app
+```
+# Run Streamlit app
 streamlit run main.py
 ```
 
